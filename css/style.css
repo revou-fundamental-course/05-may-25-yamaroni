@@ -44,10 +44,28 @@ section {
     gap: 32px;
 }
 
-.banner-img {
-    border: 1px solid;
+.banner-container {
     height: 250px;
     width: 100%;
+}
+
+.banner-img {
+    height: 250px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-img-1 {
+    background-image: url(https://picsum.photos/500);
+}
+
+.banner-img-2 {
+    background-image: url(https://picsum.photos/550);
+}
+
+.banner-img-3 {
+    background-image: url(https://picsum.photos/575);
 }
 
 .banner-form form {

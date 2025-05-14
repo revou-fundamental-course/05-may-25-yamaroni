@@ -38,9 +38,23 @@
 
             <!-- Banner & Form Content -->
             <div class="banner-form">
-                <div class="banner-img"></div>
+                <div class="banner-container">
+                    <div class="banner-img banner-img-1"></div>
+                    <div class="banner-img banner-img-2"></div>
+                    <div class="banner-img banner-img-3"></div>
+                </div>
 
-                <form></form>
+                <form>
+                    <!-- Inputan Nama -->
+                    <div>
+                        <label for="name-input">Name</label>
+                        <input type="text" id="name-input" placeholder="Enter your name" required>
+                    </div>
+
+                    <div>
+                        <button onclick="validasiForm()" type="button">Submit</button>
+                    </div>
+                </form>
             </div>
         </section>
 
@@ -81,6 +95,9 @@
             &copy; 2025 Yama Travel Agent. All rights reserved.
         </span>
     </footer>
+
+    <!-- JS External -->
+    <script src="js/script.js"></script>
 </body>
 
 </html>
