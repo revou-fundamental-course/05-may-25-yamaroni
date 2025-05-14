@@ -28,6 +28,8 @@ function nextBanner() {
 function processBanner() {
     console.log(listBanner);
 
+    // Jika indexBanner lebih dari panjang listBanner
+    // maka indexBanner di set ke 0
     if (indexBanner >= listBanner.length) {
         indexBanner = 0;
     }
